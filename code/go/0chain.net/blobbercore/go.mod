@@ -16,6 +16,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/remeh/sizedwaitgroup v0.0.0-20180822144253-5e7302b12cce
 	github.com/spf13/viper v1.7.0
+	github.com/stretchr/testify v1.7.0 // indirect
 	go.uber.org/zap v1.15.0
 	golang.org/x/crypto v0.0.0-20200820211705-5c72a883971a
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
