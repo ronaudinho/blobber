@@ -23,7 +23,7 @@ func GetObjectPath(ctx context.Context, allocationID string, blockNum int64) (*O
 	}
 
 	if rootRef.NumBlocks < blockNum {
-		return nil, common.NewError("invalid_block_num", "Invalid block number"+string(rootRef.NumBlocks)+" / "+string(blockNum))
+		return nil, common.NewErrorf("invalid_block_num", "Invalid block number %d/%d", rootRef.NumBlocks, blockNum)
 	}
 
 	if rootRef.NumBlocks == 0 {
